@@ -8,6 +8,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <h3>These goods slap:</h3>
         <ProductList products={this.props.products} />
       </div>
     );

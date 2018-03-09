@@ -1,7 +1,7 @@
 
 const initialState = [
     {
-        imgSource: "http://via.placeholder.com/100x100",
+        imgSrc: "http://via.placeholder.com/100x100",
         name: "Javelin (caution)",
         price: 500.00,
         count: 0
