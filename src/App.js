@@ -11,7 +11,7 @@ class App extends Component {
       <div>
         <SearchBar />
         <h3>These goods slap:</h3>
-        <ProductList products={this.props.products} />
+        <ProductList searchTerm={this.props.search} products={this.props.products} />
       </div>
     );
   }
