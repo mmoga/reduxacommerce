@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import ProductList from './ProductList';
 import SearchBar from './SearchBar';
 import CartButton from './CartButton';
+import CartList from './CartList';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <SearchBar /><CartButton />
         <h3>These goods slap:</h3>
         <ProductList searchTerm={this.props.search} products={this.props.products} />
+        <CartList />
       </div>
     );
   }
