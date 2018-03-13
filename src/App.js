@@ -12,7 +12,12 @@ class App extends Component {
     return (
       <div>
         <SearchBar /><CartButton />
-        {this.props.cart ? <CartList /> : <div><h3>These goods slap:</h3> <ProductList searchTerm={this.props.search} products={this.props.products} /> </div>}
+        {this.props.cart ? <CartList /> : 
+          <div>
+            <h3>These goods slap:</h3> 
+            <ProductList searchTerm={this.props.search} products={this.props.products} /> 
+            </div>
+        }
       </div>
     );
   }
