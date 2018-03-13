@@ -13,8 +13,6 @@ class App extends Component {
       <div>
         <SearchBar /><CartButton />
         {this.props.cart ? <CartList /> : <div><h3>These goods slap:</h3> <ProductList searchTerm={this.props.search} products={this.props.products} /> </div>}
-        {/* <ProductList searchTerm={this.props.search} products={this.props.products} />
-        <CartList /> */}
       </div>
     );
   }
