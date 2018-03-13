@@ -3,7 +3,7 @@ import React from 'react';
 const CartList = props => {
     return (
         <div className="CartList--frame">
-            TEST
+            <h1>Your Items:</h1>
         </div>
     );
 }
